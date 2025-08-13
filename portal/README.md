@@ -11,33 +11,6 @@ This is a Learning Management System (LMS) built with Django. It provides featur
 - Admin dashboard
 - CKEditor integration for rich text editing
 
-## Setup Instructions
-1. **Clone the repository**
-   ```
-   git clone <repo-url>
-   cd Student-Portal-LMS-in-Django-master
-   ```
-2. **Create and activate a virtual environment**
-   ```
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
-3. **Install dependencies**
-   ```
-   pip install -r requirements.txt
-   ```
-4. **Apply migrations**
-   ```
-   python manage.py migrate
-   ```
-5. **Create a superuser**
-   ```
-   python manage.py createsuperuser
-   ```
-6. **Run the development server**
-   ```
-   python manage.py runserver
-   ```
 
 ## Usage
 - Access the admin panel at `/admin/`
@@ -57,10 +30,4 @@ This is a Learning Management System (LMS) built with Django. It provides featur
 - `question/` - Question bank
 - `quiz/` - Quiz system
 - `student_portal/` - Project settings and URLs
-
-## Requirements
-- Python 3.8+
-- Django 3.2+
-- Pillow
-- django-ckeditor
 
